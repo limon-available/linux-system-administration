@@ -21,12 +21,13 @@ The goal is to develop practical skills required for **Linux System Administrato
 
 ## Learning Progress
 
-| Day                          | Topics                                         | Status    |
-| ---------------------------- | ---------------------------------------------- | --------- |
-| [Day 01](./Day-01/README.md) | Linux Fundamentals & Getting Started           | Completed |
-| [Day 02](./Day-02/README.md) | Filesystem Navigation & File Management        | Completed |
-| [Day 03](./Day-03/README.md) | User Management, Sudo & System Configuration   | Completed |
-| [Day 04](./Day-04/README.md) | Software Installation & Filesystem Exploration | Completed |
+| Day                          | Topics                                                                    | Status    |
+| ---------------------------- | ------------------------------------------------------------------------- | --------- |
+| [Day 01](./Day-01/README.md) | Linux Fundamentals & Getting Started                                      | Completed |
+| [Day 02](./Day-02/README.md) | Filesystem Navigation & File Management                                   | Completed |
+| [Day 03](./Day-03/README.md) | User Management, Sudo & System Configuration                              | Completed |
+| [Day 04](./Day-04/README.md) | Software Installation & Filesystem Exploration                            | Completed |
+| [Day 05](./Day-05/README.md) | Bash Shell Productivity, Command History, Dotfiles & Prompt Customization | Completed |
 
 ## Topics I'm Learning
 
@@ -37,6 +38,8 @@ The goal is to develop practical skills required for **Linux System Administrato
 - Absolute and relative paths
 - File and directory management
 - Linux manual pages and documentation
+- Bash shell fundamentals
+- Command-line productivity
 
 ### User and System Administration
 
@@ -53,6 +56,8 @@ The goal is to develop practical skills required for **Linux System Administrato
 - Ownership management (`chown`, `chgrp`)
 - User, group, and other permissions
 - Permission notation (`rwx`, `755`, `644`)
+- Hidden files and directories
+- Linux dotfiles and user configurations
 
 ### Software and Package Management
 
@@ -61,6 +66,20 @@ The goal is to develop practical skills required for **Linux System Administrato
 - Searching and installing software
 - Exploring installed command-line tools
 - Understanding APT repository configuration
+- Midnight Commander (`mc`)
+
+### Bash Shell and Command-Line Productivity
+
+- Bash command history (`history`)
+- Re-executing previous commands (`!n`)
+- Reverse history search (`Ctrl + R`)
+- Tab completion for commands and file paths
+- Viewing files with `more` and `less`
+- Navigating and searching text files
+- Bash configuration (`.bashrc`, `.profile`)
+- Bash environment variables (`SHELL`, `PS1`)
+- Customizing the Bash prompt using `PS1`
+- Editing configuration files using Nano
 
 ### Server Administration
 
@@ -76,7 +95,7 @@ The goal is to develop practical skills required for **Linux System Administrato
 
 **Operating Systems**
 
-- Ubuntu Server
+- Ubuntu Server 24.04 LTS
 - Linux
 
 **Cloud & Infrastructure**
@@ -91,8 +110,11 @@ The goal is to develop practical skills required for **Linux System Administrato
 - GNU Core Utilities
 - APT
 - Midnight Commander
+- `more` and `less`
+- Nano
+- `history`
+- `journalctl`
 - systemd
-- journalctl
 
 **Version Control**
 
@@ -115,8 +137,12 @@ linux-system-administration/
 ├── Day-03/
 │   └── README.md
 │
-└── Day-04/
-    └── README.md
+├── Day-04/
+│   └── README.md
+│
+└── Day-05/
+    ├── README.md
+    └── day5-summary.txt
 ```
 
 ## Learning Approach
@@ -127,6 +153,7 @@ linux-system-administration/
 - Explore Linux configuration files and system directories.
 - Document commands, outputs, and practical learnings.
 - Maintain progress through GitHub.
+- Build practical knowledge through continuous experimentation.
 
 ## Learning Resource
 
