@@ -21,12 +21,12 @@ The goal is to develop practical skills required for **Linux System Administrato
 
 ## Learning Progress
 
-| Day                          | Topics                                       | Status    |
-| ---------------------------- | -------------------------------------------- | --------- |
-| [Day 01](./Day-01/README.md) | Linux Fundamentals & Getting Started         | Completed |
-| [Day 02](./Day-02/README.md) | Filesystem Navigation & File Management      | Completed |
-| [Day 03](./Day-03/README.md) | User Management, Sudo & System Configuration | Completed |
-| Day 04                       | File Permissions & Ownership                 | Upcoming  |
+| Day                          | Topics                                         | Status    |
+| ---------------------------- | ---------------------------------------------- | --------- |
+| [Day 01](./Day-01/README.md) | Linux Fundamentals & Getting Started           | Completed |
+| [Day 02](./Day-02/README.md) | Filesystem Navigation & File Management        | Completed |
+| [Day 03](./Day-03/README.md) | User Management, Sudo & System Configuration   | Completed |
+| [Day 04](./Day-04/README.md) | Software Installation & Filesystem Exploration | Completed |
 
 ## Topics I'm Learning
 
@@ -45,6 +45,7 @@ The goal is to develop practical skills required for **Linux System Administrato
 - Hostname and timezone configuration
 - System reboot and uptime monitoring
 - Login history and system logs
+- User and group identification
 
 ### File and Access Management
 
@@ -53,15 +54,23 @@ The goal is to develop practical skills required for **Linux System Administrato
 - User, group, and other permissions
 - Permission notation (`rwx`, `755`, `644`)
 
+### Software and Package Management
+
+- APT package management
+- Updating package lists
+- Searching and installing software
+- Exploring installed command-line tools
+- Understanding APT repository configuration
+
 ### Server Administration
 
 - Linux process management
 - Service management with systemd
-- Package management
 - Disk and storage management
 - Networking and troubleshooting
 - SSH administration
 - Log monitoring
+- Exploring system configuration files
 
 ## Skills & Tools
 
@@ -80,6 +89,8 @@ The goal is to develop practical skills required for **Linux System Administrato
 
 - Bash
 - GNU Core Utilities
+- APT
+- Midnight Commander
 - systemd
 - journalctl
 
@@ -101,7 +112,10 @@ linux-system-administration/
 ├── Day-02/
 │   └── README.md
 │
-└── Day-03/
+├── Day-03/
+│   └── README.md
+│
+└── Day-04/
     └── README.md
 ```
 
@@ -110,6 +124,7 @@ linux-system-administration/
 - Follow a structured daily learning plan.
 - Practice commands directly on an Ubuntu Server.
 - Perform real server administration tasks.
+- Explore Linux configuration files and system directories.
 - Document commands, outputs, and practical learnings.
 - Maintain progress through GitHub.
 
